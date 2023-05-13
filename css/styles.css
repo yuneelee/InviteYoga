@@ -6,25 +6,81 @@ body {
   font-family: "Playfair Display", serif;
   background-color: rgb(255, 255, 255);
   color: #89807a;
+  margin: 0 auto;
 }
 
 .content-wrap {
-  width: 380px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   /* align-items: center; */
-  margin: 0 auto;
 }
 .screen-header {
-  margin: 10px 20px 0 20px;
-  padding-top: 30px;
-  /* height: 250px; */
+  /* margin: 10px 20px 0 20px; */
+  padding-top: 70px;
+  width: 100%;
+  height: 380px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  /* background-color: rgba(110, 125, 108, 0.052); */
+  background-image: url(/img/bg.jpg);
+  background-size: cover;
+  color: #fdfef9;
+  font-size: 17pt;
 }
+.brown {
+  color: #a48a79;
+}
+.title__name {
+  font-size: 13pt;
+  margin-bottom: 30px;
+}
+.title__main {
+  display: flex;
+  position: relative;
+  height: 100px;
+}
+.title__chang {
+  position: absolute;
+  font-size: 50pt;
+  left: -160px;
+}
+.title__lib {
+  position: absolute;
+  font-size: 55pt;
+  top: 30px;
+  left: -110px;
+}
+.title__10 {
+  position: absolute;
+  font-size: 100pt;
+  letter-spacing: -30px;
+  left: -50px;
+}
+.title__th {
+  position: absolute;
+  font-size: 25pt;
+  right: -150px;
+  top: 75px;
+}
+.title__invite {
+  margin-top: 35px;
+}
+.title__date {
+  margin-top: 110px;
+  color: #c0b8b0;
+  font-size: 17px;
+  letter-spacing: -2px;
+}
+.title__place {
+  margin-top: 7px;
+  color: #c0b8b0;
+  font-size: 14px;
+  letter-spacing: -2px;
+}
+
+/* 
 .screen-header__sub-title {
   font-family: "Noto Serif KR", serif;
   font-size: 9pt;
@@ -41,9 +97,9 @@ body {
 }
 .screen-header__title {
   font-size: 42px;
-  /* margin: 20px 0; */
+  margin: 20px 0;
   line-height: 55px;
-  /* margin-bottom: 15px; */
+  margin-bottom: 15px;
 }
 .screen-header__date {
   font-size: 15px;
@@ -51,7 +107,7 @@ body {
   margin-top: 30px;
   margin-bottom: 10px;
   padding: 10px;
-  /* border: 1px solid rgb(192, 184, 238); */
+  border: 1px solid rgb(192, 184, 238);
   background-color: rgb(124, 109, 153);
   width: 280px;
   color: #fefefe;
@@ -61,7 +117,7 @@ body {
   font-size: 13px;
   font-weight: 800;
   margin-top: 5px;
-}
+} */
 .screen-main {
   display: flex;
   flex-direction: column;
