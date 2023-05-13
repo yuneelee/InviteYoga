@@ -1,9 +1,10 @@
-@import "reset.css";
+@media screen {
+}
 
 body {
   box-sizing: border-box;
   font-size: 14px;
-  font-family: "Playfair Display", serif;
+  font-family: "Nanum Myeongjo", serif, "AppleMyungjo" !important;
   background-color: rgb(255, 255, 255);
   color: #89807a;
   margin: 0 auto;
