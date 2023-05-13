@@ -17,9 +17,9 @@ body {
 }
 .screen-header {
   /* margin: 10px 20px 0 20px; */
-  padding-top: 70px;
+  /* padding-top: 70px; */
   width: 100%;
-  height: 380px;
+  /* height: 380px; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -31,9 +31,8 @@ body {
   color: #fdfef9;
   font-size: 17pt;
 }
-.screen-header::after {
-  background-image: url(/img/bg.jpg);
-  background-size: cover;
+.screen-header__img img {
+  width: 100%;
 }
 .brown {
   color: #a48a79;
