@@ -2,8 +2,6 @@ body {
   box-sizing: border-box;
   font-size: 17px;
   font-family: "Noto Serif KR", serif;
-  /* font-family: 'Open Sans', sans-serif; */
-  /* font-family: "Nanum Myeongjo", serif, "AppleMyungjo" !important; */
   background-color: rgb(255, 255, 255);
   color: #9b938e;
   margin: 0 auto;
@@ -16,13 +14,10 @@ body {
 }
 .screen-header {
   width: 100%;
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* align-items: center; */
   text-align: center;
   color: #fdfef9;
   background-color: #333333;
-  background-image: url(/img/bg-dark.jpg);
+  background-image: url(./img/bg-dark.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -42,7 +37,6 @@ body {
 .title__name {
   font-size: 28pt;
   margin-top: 40px;
-  /* margin-bottom: 10px; */
 }
 .title__main {
   font-size: 65px;
