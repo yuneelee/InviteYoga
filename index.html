@@ -2,6 +2,13 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="css/styles.css" />
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400;500;600;700;900&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,49 +17,18 @@
 <body>
     <div class="content-wrap">
         <header class="screen-header">
-            <!-- <div class="screen-header__sub-title">A Foundation 10 Years</div> -->
-            <!-- <div class="screen-header__name">(사)국선요가협회</div> -->
-            <!-- <div class="screen-header__title">창립 10주년</br>기념 행사</div> -->
-            <!-- <div class="screen-header__10th">10th</div> -->
-            <!-- <div class="screen-header__date">2023. 06. 06. 화 10:00AM (현충일)</div> -->
-            <!-- <div class="screen-header__place">국선요가협회 본원</div> -->
 
-            <div class="screen-header__img">
-                <img src="./img/main.jpg" alt="main">
-            </div>
-
-            <!-- <div class="title__name">(사)국선요가협회</div>
-            <div class="title__main">
-                <div class="title__chang brown">창</div>
-                <div class="title__lib brown">립</div>
-                <div class="title__10">10</div>
-                <div class="title__th brown">주년</div>
-            </div>
+            <div class="screen-header__sub-title">A FOUNDATION 10 YEARS</div>
+            <div class="title__name">(사)국선요가협회</div>
+            <div class="title__main">창립 10주년</div>
             <div class="title__invite"> <span class="brown">기념행사에</span> 초대합니다.</div>
-            <div class="title__date">2023. 6. 6. 화 (현충일)</div>
-            <div class="title__place">국선요가협회 본원</div> -->
+            <div class="title__date">2023. 6. 6. 화요일 (현충일)</div>
+            <div class="title__place">국선요가협회 본원</div>
         </header>
 
+        <!-- <div class="title__img"><img src="./img/bg.jpg" alt=""></div> -->
         
         <main class="screen-main">
-            <!-- <div class="screen-main__img-box">
-                <img class="img-thumbnail" src="/img/main-yoga.jpg" alt="요가">
-            </div> -->
-            <div class="screen-main__gallary">
-                <div class="text-title">Gallary</div>
-                <div class="img-list">
-                    <a href="img/photo01.jpg"><img class="gallary-img" src="img/photo01.jpg" alt="photo01"></a>
-                    <a href="img/photo02.jpg"><img class="gallary-img" src="img/photo02.jpg" alt="photo02"></a>
-                    <a href="img/photo03.jpg"><img class="gallary-img" src="img/photo03.jpg" alt="photo03"></a>
-                    <a href="img/photo04.jpg"><img class="gallary-img" src="img/photo04.jpg" alt="photo04"></a>
-                    <a href="img/photo05.jpg"><img class="gallary-img" src="img/photo05.jpg" alt="photo05"></a>
-                    <a href="img/photo06.jpg"><img class="gallary-img" src="img/photo06.jpg" alt="photo06"></a>
-                    <a href="img/photo07.jpg"><img class="gallary-img" src="img/photo07.jpg" alt="photo07"></a>
-                    <a href="img/photo08.jpg"><img class="gallary-img" src="img/photo08.jpg" alt="photo08"></a>
-                    <a href="img/photo09.jpg"><img class="gallary-img" src="img/photo09.jpg" alt="photo09"></a>
-                </div>
-            </div>
-
             <div class="screen-main__invite">
                 <div class="text-title">초대의 글</div>
                 <div class="text-contents">
@@ -93,8 +69,16 @@
                                 <th rowspan="1">2부</th>
                                 <td>
                                     <p class="event-order">공연 및 시연</p>
-                                    <p style="font-size: 13px;">공연: 성악, 현악, 어린이밸리댄스, 난타</p>
-                                    <p style="font-size: 13px;">시연: 국선요가(지도자팀, 회원팀)</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;국선무예(국선요가협회 유단자)</p>
+                                    <p class="event-order-sub">&nbsp;1. 축가 (성악)</p>
+                                    <p class="event-order-sub">&nbsp;2. 요가 시연</p>
+                                    <p class="event-order-sub">&nbsp;3. 국선요가 시연</p>
+                                    <p class="event-order-sub">&nbsp;4. 가야금 연주</p>
+                                    <p class="event-order-sub">&nbsp;5. 국선도 시연</p>
+                                    <p class="event-order-sub">&nbsp;6. 축가(국악)</p>
+                                    <p class="event-order-sub">&nbsp;7. 첼로, 바이올린 연주</p>
+                                    <p class="event-order-sub">&nbsp;8. 축가</p>
+                                    <p class="event-order-sub">&nbsp;9. 태권도 시연</p>
+                                    <p class="event-order-sub">&nbsp;10. 김용남 사부님 시연</p>
                                 </td>
                             </tr>
                             <tr>
@@ -105,22 +89,114 @@
                     </table>
                 </div>
             </div>
-            <!-- <div class="screen-main__gallary">
-                <div class="text-title">Gallary</div>
-                <div class="img-list">
-                    <a href="img/photo01.jpg"><img class="gallary-img" src="img/photo01.jpg" alt="photo01"></a>
-                    <a href="img/photo02.jpg"><img class="gallary-img" src="img/photo02.jpg" alt="photo02"></a>
-                    <a href="img/photo03.jpg"><img class="gallary-img" src="img/photo03.jpg" alt="photo03"></a>
-                    <a href="img/photo04.jpg"><img class="gallary-img" src="img/photo04.jpg" alt="photo04"></a>
-                    <a href="img/photo05.jpg"><img class="gallary-img" src="img/photo05.jpg" alt="photo05"></a>
-                    <a href="img/photo06.jpg"><img class="gallary-img" src="img/photo06.jpg" alt="photo06"></a>
-                    <a href="img/photo07.jpg"><img class="gallary-img" src="img/photo07.jpg" alt="photo07"></a>
-                    <a href="img/photo08.jpg"><img class="gallary-img" src="img/photo08.jpg" alt="photo08"></a>
-                    <a href="img/photo09.jpg"><img class="gallary-img" src="img/photo09.jpg" alt="photo09"></a>
+
+
+            <div class="text-title">Gallary</div>
+                <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <img class="gallary-img" src="img/photo01.jpg" alt="photo01">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="gallary-img" src="img/photo02.jpg" alt="photo02">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="gallary-img" src="img/photo03.jpg" alt="photo03">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="gallary-img" src="img/photo04.jpg" alt="photo04">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="gallary-img" src="img/photo05.jpg" alt="photo05">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="gallary-img" src="img/photo06.jpg" alt="photo06">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="gallary-img" src="img/photo07.jpg" alt="photo07">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="gallary-img" src="img/photo08.jpg" alt="photo08">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="gallary-img" src="img/photo09.jpg" alt="photo09">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="gallary-img" src="img/photo10.jpg" alt="photo10">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="gallary-img" src="img/photo11.jpg" alt="photo11">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="gallary-img" src="img/photo12.jpg" alt="photo12">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="gallary-img" src="img/photo13.jpg" alt="photo13">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="gallary-img" src="img/photo14.jpg" alt="photo14">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="gallary-img" src="img/photo15.jpg" alt="photo15">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="gallary-img" src="img/photo16.jpg" alt="photo16">
+                        </div>
+                        <!-- <div class="swiper-slide">
+                            <img class="gallary-img" src="img/photo17.jpg" alt="photo17">
+                        </div> -->
+                        <div class="swiper-slide">
+                            <img class="gallary-img" src="img/photo18.jpg" alt="photo18">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="gallary-img" src="img/photo19.jpg" alt="photo19">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="gallary-img" src="img/photo20.jpg" alt="photo20">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="gallary-img" src="img/photo21.jpg" alt="photo21">
+                        </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                    
                 </div>
-            </div> -->
+
+
+
         </main>
     </div>
-    <script src="js/main.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+          // Optional parameters
+          direction: 'horizontal',
+          loop: true,
+    
+          // If we need pagination
+          pagination: {
+            el: '.swiper-pagination',
+          },
+    
+          // Navigation arrows
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+    
+          // And if we need scrollbar
+          scrollbar: {
+            el: '.swiper-scrollbar',
+          },
+        });
+    
+    </script>
 </body>
 </html>
