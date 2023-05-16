@@ -10,8 +10,8 @@ body {
 }
 
 .content-wrap {
-  width: 420px;
-  /* width: 100%; */
+  /* width: 420px; */
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
