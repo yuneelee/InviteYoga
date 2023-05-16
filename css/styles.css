@@ -1,6 +1,6 @@
 body {
   box-sizing: border-box;
-  font-size: 17px;
+  font-size: 15px;
   font-family: "Noto Serif KR", serif;
   background-color: #fefefe;
   margin: 0 auto;
@@ -34,35 +34,35 @@ body {
 }
 .screen-header__sub-title {
   margin-top: 90px;
-  font-size: 10pt;
+  font-size: 9pt;
   color: #ffffff;
   letter-spacing: 4px;
 }
 .title__name {
-  font-size: 26pt;
+  font-size: 24pt;
   margin-top: 40px;
 }
 .title__main {
-  font-size: 60px;
+  font-size: 55px;
   font-weight: 700;
   color: #ffffff;
 }
 .title__invite {
   margin-top: 15px;
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 400;
 }
 .title__date {
-  margin-top: 100px;
+  margin-top: 80px;
   color: #fefefe;
-  font-size: 22px;
+  font-size: 20px;
   letter-spacing: -1px;
 }
 .title__place {
   margin-top: 15px;
   margin-bottom: 70px;
   color: #fefefe;
-  font-size: 18px;
+  font-size: 16px;
   letter-spacing: -1px;
 }
 
