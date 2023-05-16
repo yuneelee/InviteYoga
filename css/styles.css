@@ -20,8 +20,8 @@ body {
   text-align: center;
   color: #fdfef9;
   background-color: #333534;
-  /* background-image: url("https://yuneelee.github.io/InviteYoga/img/bg-green.jpg"); */
-  background-image: url("/img/bg-green.jpg");
+  background-image: url("https://yuneelee.github.io/InviteYoga/img/bg-green.jpg");
+  /* background-image: url("/img/bg-green.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
 }
