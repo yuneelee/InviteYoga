@@ -2,8 +2,7 @@ body {
   box-sizing: border-box;
   font-size: 17px;
   font-family: "Noto Serif KR", serif;
-  background-color: rgb(255, 255, 255);
-  color: #9b938e;
+  background-color: #fefefe;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -20,14 +19,15 @@ body {
   width: 100%;
   text-align: center;
   color: #fdfef9;
-  background-color: #333333;
-  background-image: url("https://yuneelee.github.io/InviteYoga/img/bg-dark.jpg");
+  background-color: #333534;
+  /* background-image: url("https://yuneelee.github.io/InviteYoga/img/bg-green.jpg"); */
+  background-image: url("/img/bg-green.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .brown {
-  color: #bcb2ab;
+  color: #3b4b40;
 }
 .title__img {
   display: inline-block;
@@ -55,13 +55,13 @@ body {
 .title__date {
   margin-top: 100px;
   color: #fefefe;
-  font-size: 24px;
+  font-size: 22px;
   letter-spacing: -1px;
 }
 .title__place {
   margin-top: 15px;
   margin-bottom: 70px;
-  color: #ebebea;
+  color: #fefefe;
   font-size: 18px;
   letter-spacing: -1px;
 }
@@ -71,7 +71,7 @@ body {
   flex-direction: column;
   align-items: center;
   margin: 0;
-  color: #89807a;
+  color: #8a8d8c;
   text-align: center;
   background-color: #fdfdfd;
 }
@@ -89,15 +89,15 @@ body {
 }
 .screen-main__invite {
   line-height: 28px;
-  background-color: #fdfbee;
+  background-color: #f5f5f5;
   width: 100%;
-  color: #7d7975;
+  color: #7b827f;
 }
 .text-title {
   font-size: 30px;
   font-weight: 500;
   margin: 80px 0 40px 0;
-  color: #7d7975;
+  color: #7a817f;
 }
 
 .text-contents {
@@ -114,7 +114,7 @@ body {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  background-color: #f2f2f2;
+  background-color: #f5f5f5;
 }
 .screen-main__event__text-title {
   font-size: 20px;
@@ -169,9 +169,32 @@ td {
 .swiper-button-next:after {
   font-size: 1.8rem !important;
   font-weight: 1000 !important;
-  color: #fefefe;
+  color: #cce4d8;
 }
 
 .swiper-pagination-bullet {
-  background: black !important;
+  background: rgb(135, 164, 144) !important;
+}
+.screen-main__map {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+#map {
+}
+.link-map-btn {
+  width: 370px;
+  height: 50px;
+  /* border: 1px solid black; */
+  background-color: rgb(107, 177, 122);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.link-map-btn a {
+  font-size: 13pt;
+  color: #fefefe;
+  text-decoration: none;
 }
